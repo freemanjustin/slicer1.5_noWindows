@@ -1,0 +1,14 @@
+#!/bin/bash -f
+#PBS -S /bin/bash
+#PBS -q express 
+#PBS -P ep4
+#PBS -l mem=50gb
+#PBS -l walltime=00:40:00
+#PBS -l ncpus=1
+#PBS -N slicer
+
+source /etc/bashrc
+cd ${PBS_O_WORKDIR}
+source /home/548/jcf548/.bash_profile
+
+time ./slicer_quiet path_16.xml

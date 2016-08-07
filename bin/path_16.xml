@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SlicerData>
+  <!-- slicer parameters -->
+  <params>
+    <shader_path>/short/ep4/jcf548/slicer1.5_noWindows/bin/shaders</shader_path>
+    <font_path>/short/ep4/jcf548/slicer1.5_noWindows/bin/fonts</font_path>
+    <font_name>League_Gothic.ttf</font_name>
+    <output_path>movie_16.mov</output_path>
+    <progress_file>progress_15.txt</progress_file>
+    <backgroundColor> 0.00000 0.00000 0.00000 </backgroundColor>
+    <window> 1024 576 </window>
+    <camera>  -24.0 149.0 0.0  </camera>
+    <zoom> 2.6 </zoom>    
+    <!-- slicer internal fudge factor to enable geolocation -->
+    <lon_offset> 180.0 </lon_offset>
+   <texture_archive>/short/ep4/jcf548/slicer1.5_noWindows/bin/OFAM3</texture_archive>
+  </params>
+  
+  <layer name="logo">
+    <texture> /short/ep4/jcf548/slicer1.5_noWindows/bin/assets/bluelink256x256.png </texture>
+    <color> 1.000000 1.000000 1.000000 </color>
+  </layer>
+  
+  <layer name="earth">
+    <texture> /short/ep4/jcf548/slicer1.5_noWindows/bin/bluemarble/cont8.png </texture>
+    <color> 1.000000 1.000000 1.000000 </color>
+  </layer>
+     
+  <sequence name="sea_surface_height_anomaly" start_date="2451544.5" preview="false">
+<pt>0 0 2.57 0</pt>
+<pt>0 90 2.57 1024</pt>
+</sequence>
+</SlicerData>
